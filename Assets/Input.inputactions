@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "name": "Input",
+    "maps": [
+        {
+            "name": "Actions",
+            "id": "1b71cc59-372b-4cd9-9761-6f30c81f1aa0",
+            "actions": [
+                {
+                    "name": "CreatePlanet",
+                    "type": "Button",
+                    "id": "58caba11-3887-4126-8a71-05552b4186e1",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CreateSun",
+                    "type": "Button",
+                    "id": "4414c8b0-defc-4132-bd4a-382734816f71",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "572b5e37-c25e-4258-af9a-780a165125a7",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CreatePlanet",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "67c0587e-c42c-4dc6-95f0-ceb4d42df3aa",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CreateSun",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
